@@ -1,0 +1,88 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Regulator_Linear:LM7812_TO220 U4
+U 1 1 5E70961B
+P 3400 2100
+F 0 "U4" H 3400 2342 50  0000 C CNN
+F 1 "LM7812" H 3400 2251 50  0000 C CNN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3400 2325 50  0001 C CIN
+F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 3400 2050 50  0001 C CNN
+	1    3400 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 5E709D94
+P 2900 2300
+F 0 "C9" H 3015 2346 50  0000 L CNN
+F 1 "0,1uF" H 3015 2255 50  0000 L CNN
+F 2 "" H 2938 2150 50  0001 C CNN
+F 3 "~" H 2900 2300 50  0001 C CNN
+	1    2900 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 5E70A0AB
+P 3900 2300
+F 0 "C10" H 4015 2346 50  0000 L CNN
+F 1 "0,1uF" H 4015 2255 50  0000 L CNN
+F 2 "" H 3938 2150 50  0001 C CNN
+F 3 "~" H 3900 2300 50  0001 C CNN
+	1    3900 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3700 2100 3900 2100
+Wire Wire Line
+	3900 2100 3900 2150
+Wire Wire Line
+	3100 2100 2900 2100
+Wire Wire Line
+	2900 2100 2900 2150
+Wire Wire Line
+	2900 2450 2900 2550
+Wire Wire Line
+	2900 2550 3400 2550
+Wire Wire Line
+	3400 2550 3400 2400
+Wire Wire Line
+	3400 2550 3900 2550
+Wire Wire Line
+	3900 2550 3900 2450
+Connection ~ 3400 2550
+Wire Wire Line
+	2900 2100 2550 2100
+Connection ~ 2900 2100
+Wire Wire Line
+	2900 2550 2500 2550
+Connection ~ 2900 2550
+Wire Wire Line
+	3900 2550 4300 2550
+Connection ~ 3900 2550
+Wire Wire Line
+	3900 2100 4300 2100
+Connection ~ 3900 2100
+Text HLabel 4300 2100 2    50   Output ~ 0
+12V
+Text HLabel 4300 2550 2    50   Output ~ 0
+GND
+Text HLabel 2550 2100 0    50   Output ~ 0
+24V
+Text HLabel 2500 2550 0    50   Output ~ 0
+GND
+$EndSCHEMATC
