@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Regulator_Linear:LM1117-3.3 U?
+L Regulator_Linear:LM1117-3.3 U1
 U 1 1 5E70FE8E
 P 3900 1900
-F 0 "U?" H 3900 2142 50  0000 C CNN
+F 0 "U1" H 3900 2142 50  0000 C CNN
 F 1 "LM1117-3.3" H 3900 2051 50  0000 C CNN
 F 2 "" H 3900 1900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 3900 1900 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm1117.pdf" H 3900 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C2
 U 1 1 5E710258
 P 3450 2100
-F 0 "C?" H 3565 2146 50  0000 L CNN
+F 0 "C2" H 3565 2146 50  0000 L CNN
 F 1 "10uF" H 3565 2055 50  0000 L CNN
 F 2 "" H 3488 1950 50  0001 C CNN
 F 3 "~" H 3450 2100 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "~" H 3450 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C4
 U 1 1 5E710605
 P 4950 2100
-F 0 "C?" H 5065 2146 50  0000 L CNN
+F 0 "C4" H 5065 2146 50  0000 L CNN
 F 1 "0,1uF" H 5065 2055 50  0000 L CNN
 F 2 "" H 4988 1950 50  0001 C CNN
 F 3 "~" H 4950 2100 50  0001 C CNN
@@ -47,10 +47,10 @@ F 3 "~" H 4950 2100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP C?
+L Device:CP C3
 U 1 1 5E7108E7
 P 4450 2100
-F 0 "C?" H 4568 2146 50  0000 L CNN
+F 0 "C3" H 4568 2146 50  0000 L CNN
 F 1 "22uF" H 4568 2055 50  0000 L CNN
 F 2 "" H 4488 1950 50  0001 C CNN
 F 3 "~" H 4450 2100 50  0001 C CNN

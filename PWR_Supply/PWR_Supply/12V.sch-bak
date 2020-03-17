@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Regulator_Linear:LM7812_TO220 U?
+L Regulator_Linear:LM7812_TO220 U4
 U 1 1 5E70961B
 P 3400 2100
-F 0 "U?" H 3400 2342 50  0000 C CNN
+F 0 "U4" H 3400 2342 50  0000 C CNN
 F 1 "LM7812" H 3400 2251 50  0000 C CNN
 F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 3400 2325 50  0001 C CIN
 F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 3400 2050 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 3400 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C9
 U 1 1 5E709D94
 P 2900 2300
-F 0 "C?" H 3015 2346 50  0000 L CNN
+F 0 "C9" H 3015 2346 50  0000 L CNN
 F 1 "0,1uF" H 3015 2255 50  0000 L CNN
 F 2 "" H 2938 2150 50  0001 C CNN
 F 3 "~" H 2900 2300 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "~" H 2900 2300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C10
 U 1 1 5E70A0AB
 P 3900 2300
-F 0 "C?" H 4015 2346 50  0000 L CNN
+F 0 "C10" H 4015 2346 50  0000 L CNN
 F 1 "0,1uF" H 4015 2255 50  0000 L CNN
 F 2 "" H 3938 2150 50  0001 C CNN
 F 3 "~" H 3900 2300 50  0001 C CNN
