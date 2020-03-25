@@ -1,0 +1,62 @@
+(export (version D)
+  (design
+    (source C:\Users\emils\PCB_CAD_Homework\Battery\Battery.sch)
+    (date "25.03.2020 10:02:00")
+    (tool "Eeschema (5.1.4)-1")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source Battery.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref BT1)
+      (value Battery_Cell)
+      (footprint Battery_Holder:S8211R)
+      (datasheet ~)
+      (libsource (lib Device) (part Battery_Cell) (description "Single-cell battery"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5E7B0D08))
+    (comp (ref R1)
+      (value R)
+      (footprint Resistor_SMD:R_0805_2012Metric)
+      (datasheet ~)
+      (libsource (lib Device) (part R) (description Resistor))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 5E7B1102)))
+  (libparts
+    (libpart (lib Device) (part Battery_Cell)
+      (description "Single-cell battery")
+      (docs ~)
+      (fields
+        (field (name Reference) BT)
+        (field (name Value) Battery_Cell))
+      (pins
+        (pin (num 1) (name +) (type passive))
+        (pin (num 2) (name -) (type passive))))
+    (libpart (lib Device) (part R)
+      (description Resistor)
+      (docs ~)
+      (footprints
+        (fp R_*))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive)))))
+  (libraries
+    (library (logical Device)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib")))
+  (nets
+    (net (code 1) (name "Net-(BT1-Pad1)")
+      (node (ref BT1) (pin 1))
+      (node (ref R1) (pin 1)))
+    (net (code 2) (name "Net-(BT1-Pad2)")
+      (node (ref BT1) (pin 2))
+      (node (ref R1) (pin 2)))))
