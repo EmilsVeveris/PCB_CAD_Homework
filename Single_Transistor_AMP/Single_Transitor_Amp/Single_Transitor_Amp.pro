@@ -1,4 +1,4 @@
-update=01.04.2020 10:20:09
+update=15.04.2020 09:45:30
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=Single_Transitor_Amp.net
 CopperLayerCount=4
 BoardThickness=1.6
 AllowMicroVias=0
@@ -249,7 +249,7 @@ dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Power
 Clearance=0.2
-TrackWidth=0.7
+TrackWidth=0.4
 ViaDiameter=0.6
 ViaDrill=0.4
 uViaDiameter=0.3
